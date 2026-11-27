@@ -5,6 +5,6 @@ CREATE TABLE checkouts (
   checked_out_on date NOT NULL DEFAULT CURRENT_DATE
 );
 INSERT INTO checkouts (student, item) VALUES
-  ('Asha', 'Projector'),
-  ('Ravi', 'Arduino kit'),
-  ('Meera', 'Camera');
+  ('Alex', 'Projector'),
+  ('Sam', 'Arduino kit'),
+  ('Taylor', 'Camera');
